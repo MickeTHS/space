@@ -37,8 +37,8 @@ export default {
     data() {
       return {
         rows: [
-          [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }, { id: 5 }, { id: 6 }, { id: 7 }, { id: 8 }, { id: 9 }, { id: 10 }, { id: 11 }, { id: 12 },],
-          [{ id: 21 }, { id: 22 }, { id: 23 }, { id: 24 }, { id: 25 }, { id: 26 }, { id: 27 }, { id: 28 }, { id: 29 }, { id: 30 }, { id: 31 }, { id: 32 },]
+          [{ id: 1, status: 'HIB' }, { id: 2, status: 'HIB' }, { id: 3, status: 'HIB' }, { id: 4, status: 'HIB' }, { id: 5, status: 'HIB' }, { id: 6, status: 'HIB' }, { id: 7, status: 'HIB' }, { id: 8, status: 'DEAD' }, { id: 9, status: 'HIB' }, { id: 10, status: 'HIB' }, { id: 11, status: 'HIB' }, { id: 12, status: 'HIB' },],
+          [{ id: 21, status: 'HIB' }, { id: 22, status: 'HIB' }, { id: 23, status: 'HIB' }, { id: 24, status: 'HIB' }, { id: 25, status: 'HIB' }, { id: 26, status: 'HIB' }, { id: 27, status: 'HIB' }, { id: 28, status: 'HIB' }, { id: 29, status: 'HIB' }, { id: 30, status: 'HIB' }, { id: 31, status: 'HIB' }, { id: 32, status: 'HIB' },]
         ]
       };
     },

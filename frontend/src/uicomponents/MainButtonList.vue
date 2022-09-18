@@ -4,9 +4,10 @@
       <b-col>
         <a
           class="btn btn-primary font-weight-bolder font-size-sm"
+          style="width: 136px"
           @click.prevent="click1"
         >
-          TEST1
+          CRYOCHAMBER
         </a>
         
       </b-col>
@@ -14,13 +15,29 @@
 
     <b-row>
       <b-col>
-        <b-button>Test2</b-button>
+        
+        <a
+          class="btn btn-primary font-weight-bolder font-size-sm"
+          style="width: 136px"
+          @click.prevent="click1"
+        >
+          CREW
+        </a>
+        
+
       </b-col>
     </b-row>
 
     <b-row>
       <b-col>
-        <b-button>Test3</b-button>
+        <a
+          class="btn btn-primary font-weight-bolder font-size-sm"
+          style="width: 136px"
+          @click.prevent="click1"
+        >
+          SHIP STATUS
+        </a>
+        
       </b-col>
     </b-row>
   </div>

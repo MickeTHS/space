@@ -4,6 +4,14 @@
   color: #aafffc;
 }
 
+
+.btn.btn-danger {
+  background: linear-gradient(to bottom, rgba(237,55,55,0.05) 0%, rgba(237,55,55,0.1) 100%);
+  border-color: #ed3737;
+  color: #ed3737;
+}
+
+
 .btn {
   display: inline-block;
   font-weight: 400;

@@ -17,6 +17,7 @@
       <b-col cols="5">
         <PodContainer />
         <PodOptions />
+        <CrewContainer />
       </b-col>
     </b-row>
   </div>  
@@ -34,6 +35,7 @@ import SelectionFrame from '@/uicomponents/SelectionFrame.vue';
 import MainButtonList from '@/uicomponents/MainButtonList.vue';
 import PodContainer from '@/uicomponents/cryo/PodContainer.vue';
 import PodOptions from '@/uicomponents/cryo/PodOptions.vue';
+import CrewContainer from '@/uicomponents/crew/CrewContainer.vue';
 
 export default {
   name: "HelloWorld",
@@ -45,7 +47,8 @@ export default {
     SelectionFrame,
     MainButtonList,
     PodContainer,
-    PodOptions
+    PodOptions,
+    CrewContainer
 },
   data() {
     return {

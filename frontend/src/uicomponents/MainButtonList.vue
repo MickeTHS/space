@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-row>
+    <b-row class="button-row">
       <b-col>
         <a
           class="btn btn-primary font-weight-bolder font-size-sm"
@@ -13,7 +13,7 @@
       </b-col>
     </b-row>
 
-    <b-row>
+    <b-row class="button-row">
       <b-col>
         
         <a
@@ -28,7 +28,7 @@
       </b-col>
     </b-row>
 
-    <b-row>
+    <b-row class="button-row">
       <b-col>
         <a
           class="btn btn-primary font-weight-bolder font-size-sm"
@@ -42,6 +42,12 @@
     </b-row>
   </div>
 </template>
+
+<style lang="css" scoped>
+  .button-row {
+    margin-bottom: 8px;
+  }
+</style>
 
 <script>
 

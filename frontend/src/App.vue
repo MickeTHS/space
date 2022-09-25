@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <GameMainLayout />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import GameMainLayout from '@/layouts/GameMainLayout.vue';
-
+  
 export default {
   name: 'App',
   components: {
-    GameMainLayout
+    
 }
 }
 </script>

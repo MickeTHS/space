@@ -1,8 +1,8 @@
 <template>
   <div>
     <b-row>
-      <b-col cols="5" class="game-view">
-        <CanvasComponent />
+      <b-col cols="7" class="game-view">
+        <PeopleTable />
       </b-col>
       
       <b-col cols="2">
@@ -14,42 +14,47 @@
         </b-row>
       </b-col>
 
-      <b-col cols="5">
+      <b-col cols="3">
         <PodContainer />
         <PodOptions />
         <CrewContainer />
+      
       </b-col>
     </b-row>
   </div>  
 </template>
 
 <style lang="css" scoped>
-  .game-view {
-    max-width: 512px;
-  }
+  
 </style>
 
 <script>
-import CanvasComponent from '@/components/CanvasComponent.vue';
+//import CanvasComponent from '@/components/CanvasComponent.vue';
 import SelectionFrame from '@/uicomponents/SelectionFrame.vue';
 import MainButtonList from '@/uicomponents/MainButtonList.vue';
 import PodContainer from '@/uicomponents/cryo/PodContainer.vue';
 import PodOptions from '@/uicomponents/cryo/PodOptions.vue';
 import CrewContainer from '@/uicomponents/crew/CrewContainer.vue';
+import PeopleTable from '@/uicomponents/tables/PeopleTable.vue';
 
 export default {
-  name: "HelloWorld",
+// eslint-disable-next-line
+  name: "Medical",
   props: {
     msg: String
   },
   components: {
-    CanvasComponent,
+//    CanvasComponent,
     SelectionFrame,
     MainButtonList,
     PodContainer,
     PodOptions,
-    CrewContainer
-},
+    CrewContainer,
+    PeopleTable,
+  },
+  mounted() {
+    console.log('dashboard loaded');
+  },
   data() {
     return {
       
